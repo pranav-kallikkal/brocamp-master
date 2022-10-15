@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./youtube.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <!-- leftside controls -->
+      <section id="left-nav">
+        <div>
+          <img class="ham-icon" src="./images/menu-icon.svg" alt="menu-icon" />
+        </div>
+        <div>
+          <img
+            class="yt-logo"
+            src="./images/youtube-logo.png"
+            alt="youtube-logo"
+          />
+          <span class="country">IN</span>
+        </div>
+      </section>
+      <!-- main section -->
+      <section id="right-nav">
+        <div>
+          <div class="search-group">
+            <input class="nav-search-bar" type="text" placeholder="Search" />
+            <button class="nav-search-button">
+              <img src="./images/search-icon.svg" alt="search" />
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="profile-group"
+            style="
+              font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 48;
+            "
+          >
+            <span class="material-symbols-outlined"> video_call </span>
+            <span class="material-symbols-outlined">notifications</span>
+            <img class="dp-image" src="./images/dp.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+    </nav>
+
+    <section id="main-body">
+      <!-- leftsection -->
+      <div id="left-main-section">
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              home
+            </span>
+            <span>Home</span>
+          </div>
+        </div>
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              explore
+            </span>
+            <span>Explore</span>
+          </div>
+        </div>
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              subscriptions
+            </span>
+            <span>Subscriptions</span>
+          </div>
+        </div>
+        <div class="hr-border"></div>
+        <!--custom hr-->
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              video_library
+            </span>
+            <span>Library</span>
+          </div>
+        </div>
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              history
+            </span>
+            <span>History</span>
+          </div>
+        </div>
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              slideshow
+            </span>
+            <span>Your videos</span>
+          </div>
+        </div>
+        <div class="icon-text-group">
+          <div class="icon-text">
+            <span
+              style="
+                font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0,
+                  'opsz' 48;
+              "
+              class="material-symbols-outlined"
+            >
+              content_cut
+            </span>
+            <span>Your clips</span>
+          </div>
+        </div>
+        <div class="hr-border"></div>
+      </div>
+      <!-- right section -->
+      <section id="right-main-section">
+        <div class="filter-bar">
+          <div>All</div>
+          <div>Google</div>
+          <div>Music</div>
+          <div>Mobile Phones</div>
+          <div>Computer programming</div>
+          <div>Laptops</div>
+          <div>Comedy</div>
+          <div>Trailers</div>
+          <div>Mixes</div>
+          <div>Gaming</div>
+          <div>Stocks</div>
+        </div>
+        <!-- videos section -->
+        <div id="right-videos-section">
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/001.jpg" alt="thumbnail" />
+              <div class="video-duration">3:15</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-001.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Big Changes at Y Combinator? An Inside Look with S22 Founders
+                </div>
+                <div class="channel-name">Y Combinator</div>
+                <div class="views-nd-since">8.7K views . 14 hours ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/002.jpg" alt="thumbnail" />
+              <div class="video-duration">5:16</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-002.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  We take complete responsibility for this | Brototype Malayalam
+                </div>
+                <div class="channel-name">Brototype Malayalam</div>
+                <div class="views-nd-since">24K views . 4 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/003.jpg" alt="thumbnail" />
+              <div class="video-duration">3:07</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-003.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Padavettu - Official Trailer | Nivin Pauly | Aditi Balan |
+                  Liju Krishna | Shine Tom Chacko | 21 Oct
+                </div>
+                <div class="channel-name">Saregama Malayalam</div>
+                <div class="views-nd-since">3.7M views . 5 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/004.jpg" alt="thumbnail" />
+              <div class="video-duration">9:20</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-004.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Pixel 7 Review: Return of the King?
+                </div>
+                <div class="channel-name">Beebom</div>
+                <div class="views-nd-since">108K views . 17 hours ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/005.jpg" alt="thumbnail" />
+              <div class="video-duration">22:20</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-005.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Personal websites never fail to impress me...
+                </div>
+                <div class="channel-name">Developer Filip</div>
+                <div class="views-nd-since">23K views . 6 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/006.jpg" alt="thumbnail" />
+              <div class="video-duration">10:21</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-006.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  My Mindful & Productive Morning Routine
+                </div>
+                <div class="channel-name">Ali Abdal</div>
+                <div class="views-nd-since">267K views . 12 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/007.jpg" alt="thumbnail" />
+              <div class="video-duration">10:12</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-007.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Sony WH-1000XM5 Review: Two Steps Forward, One Step Back!
+                </div>
+                <div class="channel-name">Marques Brownlee</div>
+                <div class="views-nd-since">3.6M views . 5 months ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/008.jpg" alt="thumbnail" />
+              <div class="video-duration">2:11</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-008.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Marvel Studios’ Black Panther: Wakanda Forever | Official
+                  Trailer
+                </div>
+                <div class="channel-name">Marvel Entertainment</div>
+                <div class="views-nd-since">24M views . 9 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/001.jpg" alt="thumbnail" />
+              <div class="video-duration">3:15</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-001.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Big Changes at Y Combinator? An Inside Look with S22 Founders
+                </div>
+                <div class="channel-name">Y Combinator</div>
+                <div class="views-nd-since">8.7K views . 14 hours ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/002.jpg" alt="thumbnail" />
+              <div class="video-duration">5:16</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-002.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  We take complete responsibility for this | Brototype Malayalam
+                </div>
+                <div class="channel-name">Brototype Malayalam</div>
+                <div class="views-nd-since">24K views . 4 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/003.jpg" alt="thumbnail" />
+              <div class="video-duration">3:07</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-003.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Padavettu - Official Trailer | Nivin Pauly | Aditi Balan |
+                  Liju Krishna | Shine Tom Chacko | 21 Oct
+                </div>
+                <div class="channel-name">Saregama Malayalam</div>
+                <div class="views-nd-since">3.7M views . 5 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/004.jpg" alt="thumbnail" />
+              <div class="video-duration">9:20</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-004.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Pixel 7 Review: Return of the King?
+                </div>
+                <div class="channel-name">Beebom</div>
+                <div class="views-nd-since">108K views . 17 hours ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/005.jpg" alt="thumbnail" />
+              <div class="video-duration">22:20</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-005.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Personal websites never fail to impress me...
+                </div>
+                <div class="channel-name">Developer Filip</div>
+                <div class="views-nd-since">23K views . 6 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/006.jpg" alt="thumbnail" />
+              <div class="video-duration">10:21</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-006.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  My Mindful & Productive Morning Routine
+                </div>
+                <div class="channel-name">Ali Abdal</div>
+                <div class="views-nd-since">267K views . 12 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/007.jpg" alt="thumbnail" />
+              <div class="video-duration">10:12</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-007.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Sony WH-1000XM5 Review: Two Steps Forward, One Step Back!
+                </div>
+                <div class="channel-name">Marques Brownlee</div>
+                <div class="views-nd-since">3.6M views . 5 months ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="video-div">
+            <div class="thumbnail-div">
+              <img src="./images/thumbnails/008.jpg" alt="thumbnail" />
+              <div class="video-duration">2:11</div>
+            </div>
+            <div class="video-details">
+              <img src="./images/channel-imgs/ci-008.jpg" alt="channel-logo" />
+              <div>
+                <div class="video-title">
+                  Marvel Studios’ Black Panther: Wakanda Forever | Official
+                  Trailer
+                </div>
+                <div class="channel-name">Marvel Entertainment</div>
+                <div class="views-nd-since">24M views . 9 days ago</div>
+              </div>
+              <span class="material-symbols-outlined"> more_vert </span>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

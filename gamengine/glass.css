@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: medium;
+}
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: white;
+  max-height: 80vh;
+  width: 65%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  border-radius: 2rem;
+}
+.user img {
+  border-radius: 50%;
+  width: 4rem;
+}
+.user p {
+  font-size: smaller;
+}
+.link {
+  display: flex;
+  margin: 1rem 3rem;
+  align-items: center;
+}
+.link img {
+  width: 1.5rem;
+}
+.link h2 {
+  padding: 0rem 2rem;
+}
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+.pro img {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 5rem;
+}
+.pro h2 {
+  width: 40%;
+  color: white;
+  text-align: left;
+  font-weight: 600;
+}
+.games {
+  flex: 2;
+}
+
+/* GAMES */
+
+.status {
+  margin-bottom: 3rem;
+}
+.status h1{
+  font-size: 3rem;
+}
+.games {
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.4)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 1rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  justify-content: space-between;
+}
+.card img {
+  width: 5rem;
+}
+.progress {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 25%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  position: absolute;
+  left: 60%;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.percentage {
+  font-weight: bold;
+  color: #6cdbeb;
+}
+
+/* CIRCLES */
+.circle {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.circle1 {
+  right: 15%;
+  top: 5%;
+}
+.circle2 {
+  left: 10%;
+  bottom: 5%;
+}
