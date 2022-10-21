@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Each category of taxonomic hierarchy refers to a unit of ______.",
+    "choice1": "systematic",
+    "choice2": "identification",
+    "choice3": "nomenclature",
+    "choice4": "classification",
+    "answer": 4,
+    "explanation": "Taxonomic hierarchy is the sequence of arrangements of taxonomic categories in a descending order during the classification of organisms. Each category of taxonomic hierarchy refers to a unit of classification. Classification is the process by which anything is grouped into convenient categories based on some easily observable characters."
+  },
+  {
+    "question": "Taxon is a",
+    "choice1": "unit of classification.",
+    "choice2": "species",
+    "choice3": "highest rank of classification.",
+    "choice4": "group of closely related organisms.",
+    "answer": 4,
+    "explanation": "Taxon is a grouping of organisms of any level in hierarchical classification which is based on some common characteristics. It represents real biological objects placed in any category while category itself is an abstract term."
+  },
+  {
+    "question": "Families are characterized on which of the following features of plant species?",
+    "choice1": "External morphology",
+    "choice2": "Anatomy of parts",
+    "choice3": "Vegetative and reproductive parts",
+    "choice4": "Seasonal similarities and variations",
+    "answer": 3,
+    "explanation": "A family is a subdivision of an order consisting of a group of related genera which in turn are composed of groups of related species. Families are characterized on the basis of vegetative and reproductive parts of the plant species."
+  },
+  {
+    "question": "<b>Statement 1</b> : Taxon and category are different things.<br> <b>Statement 2</b> : Category shows hierarchical classification.",
+    "choice1": "Statement- 1 and statement-2 are true and statement-2 is a correct explanation for statement -1",
+    "choice2": "Statement -1 and Statement -2 are true;statement-2 is not a correct explanation for statement – 1",
+    "choice3": "Statement – 1 is true and statement- 2 is false",
+    "choice4": "Both the statements are false.",
+    "answer": 1,
+    "explanation": "A category is a rank or level in the hierarchical classification of organisms. Taxon is a unit in classification which may represent any level of grouping of organisms based on certain common characteristics. There is some confusion in the use of taxon and category, for example Bryophyta is a taxon while division is a category."
+  },
+  {
+    "question": "As we go from species to kingdom in a taxonomic hierarchy, the number of common characteristics",
+    "choice1": "Will decrease",
+    "choice2": "Will increase",
+    "choice3": "Remain same",
+    "choice4": "May increase or decrease",
+    "answer": 1,
+    "explanation": "As we go higher from species to kingdom, the number of common characteristics goes on decreasing. Lower the taxa, more are the characteristics that the members within the taxon share."
+  },
+  {
+    "question": "The taxonomic unit ‘Phylum’ in the classification of animals is equivalent to which hierarchical level in classification of plants.",
+    "choice1": "Class",
+    "choice2": "Order",
+    "choice3": "Division",
+    "choice4": "Family",
+    "answer": 3,
+    "explanation": "The taxonomic unit 'Phylum' in the classification of animals is equivalent to the taxonomic unit 'Division' in the classification of the plants."
+  },
+  {
+    "question": "Two plants can be conclusively said to belong to the same species if they",
+    "choice1": "can reproduce freely with each other and form seeds.",
+    "choice2": "have more than 90 percent similar genes.",
+    "choice3": "look similar and possess identical secondary metabolites.",
+    "choice4": "have same number of chromosomes.",
+    "answer": 1,
+    "explanation": "Two plants can be conclusively said to belong to the same species; they can reproduce freely with each other and form seeds."
+  },
+  {
+    "question": "Which of the following statements is incorrect?",
+    "choice1": "The scientific name for humans is Homo sapiens.",
+    "choice2": "Organisms placed in the same genus are least closely related.",
+    "choice3": "Moving from species to kingdom, more  different species are included in each higher category.",
+    "choice4": "Species that are in the same genus share very specific characteristics.",
+    "answer": 2,
+    "explanation": "Genus comprises a group of related species which has more characters in common in comparison to species of other genera. Organisms placed in the same genus are most closely related."
+  },
+  {
+    "question": "Solanum, Panthera, Homo are examples of",
+    "choice1": "Family",
+    "choice2": "Division",
+    "choice3": "Genera",
+    "choice4": "Species epithet",
+    "answer": 3,
+    "explanation": "Solanum, Panthera, Homo are examples of generic names."
+  },
+  {
+    "question": "Which of the following does not come under taxon?",
+    "choice1": "Species",
+    "choice2": "Kingdom",
+    "choice3": "Division",
+    "choice4": "Key",
+    "answer": 4,
+    "explanation": "Taxon is a group of one or more populations of organisms. Kingdom, division and species come under taxon but key is taxonomical aid"
+  },
+  {
+    "question": "Related genera belongs to the same",
+    "choice1": "Species",
+    "choice2": "Family",
+    "choice3": "Variety",
+    "choice4": "Breed",
+    "answer": 2,
+    "explanation": "Family is a group of genera having some common properties. So, related genera belong to the same family."
+  },
+  {
+    "question": "The basic unit of classification is ",
+    "choice1": "Species",
+    "choice2": "Phylum",
+    "choice3": "Genus",
+    "choice4": "Family",
+    "answer": 1,
+    "explanation": "The basic unit of classification is species. Species are a population of organisms that can interbreed among themselves to produce new organisms"
+  },
+  {
+    "question": "A group of closely related classes is called",
+    "choice1": "Genus",
+    "choice2": "Phylum",
+    "choice3": "Family",
+    "choice4": "Order",
+    "answer": 2,
+    "explanation": "Genus comprises a group of related species. Family has a group of related genera, order has a group of related families"
+  },
+  {
+    "question": "What is true for individuals of the same species?",
+    "choice1": "Interbreeding",
+    "choice2": "Live in same habitat",
+    "choice3": "live in same niche",
+    "choice4": "None of these",
+    "answer": 1,
+    "explanation": "A species is  a group of individuals with similar characteristics and interbreed with another member of the same group to produce fertile offspring."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "question": "The duration of Medieval Period was from ___ Century C.E to ___ Century C.E.",
+    "choice1": "4th, 8th",
+    "choice2": "10th, 20th",
+    "choice3": "5th, 15th",
+    "choice4": "4th, 15th",
+    "answer": 3,
+    "explanation": "The duration of the Medival period was from fifth century to fifteenth century CE. Eventhough the political structure of the medival period was similar, the term Medival period was not refered as the same period all over the world."
+  },
+  {
+    "question": "Which of these was the largest ancient empire?",
+    "choice1": "The Chinese Empire",
+    "choice2": "The Roman Empire",
+    "choice3": "The Frankish Empire",
+    "choice4": "The Mongol Empire",
+    "answer": 2,
+    "explanation": "Among the ancient empires The Roman empire was the largest empire."
+  },
+  {
+    "question": "Who divided the Roman Empire into two in the 4th Century C.E?",
+    "choice1": "Justinian",
+    "choice2": "Diocletian",
+    "choice3": "Sulaiman",
+    "choice4": "Charlemagne",
+    "answer": 2,
+    "explanation": "Diocletian, a famous Roman Emperor divided the Roman Empire into two in the 4<sup>th</sup> century C.E, as Eastern Roman Empire with the capital at Constantinople and Western Roman Empire with its capital at Rome."
+  },
+  {
+    "question": "Which of these was the capital of Eastern Roman Empire?",
+    "choice1": "Constantinople",
+    "choice2": "Rome",
+    "choice3": "Damascus",
+    "choice4": "Timbuktu",
+    "answer": 1,
+    "explanation": "Constantinople was the capital of Eatern Roman Empire. In contrast, Rome was the capital of Western Roman Empire."
+  },
+  {
+    "question": "Constantinople was also known as ________",
+    "choice1": "Baghdad",
+    "choice2": "Byzantium",
+    "choice3": "Mecca",
+    "choice4": "Siberia",
+    "answer": 2,
+    "explanation": "Constantinople was also known as Byzantium. Hence the Eastern Roman Empire was otherwise called the Byzantine Empire."
+  },
+  {
+    "question": "'<span class='highlighted-text-slab'>History will judiciously forget the wars of Justinian and remember him for his laws.</span>'   - whose words are these?",
+    "choice1": "St. Augustine",
+    "choice2": "Ibn Khaldun",
+    "choice3": "Will Durant",
+    "choice4": "Kalhana",
+    "answer": 3,
+    "explanation": "The words are of Will Durant, about the famous Roman Emperor 'Justinian' in his book 'The Story of Civilization'."
+  },
+  {
+    "question": "What was the Code of Law made by Justinian?",
+    "choice1": "Corpus Juris Civilis",
+    "choice2": "Republic",
+    "choice3": "Democracy",
+    "choice4": "Sociare Corpus",
+    "answer": 1,
+    "explanation": "The greatest contribution of Justinian is the codification of all the existing Roman laws into a code of law, 'Corpus Juris Civilis'."
+  },
+  {
+    "question": "Who codified the code of law,'Corpus Juris Civilis'?",
+    "choice1": "Sulaiman",
+    "choice2": "Diocletian",
+    "choice3": "Charlemagne",
+    "choice4": "Justinian",
+    "answer": 4,
+    "explanation": "Justinian, a famous Roman Emperor codified all the existing Roman laws into a  code of law, 'Corpus Juris Civilis'"
+  },
+  {
+    "question": "What are the principles, that the 'Corpus Juris Civilis' was based on?",
+    "choice1": "Reasoning, Justice, and generosity",
+    "choice2": "Peace, Equality, Republic",
+    "choice3": "Freedom, Fascism, Literature",
+    "choice4": "Communism, Freedom, Unity",
+    "answer": 1,
+    "explanation": "Justinian's Code, Corpus Juris Civilis is based on the principles of reasoning, justice and generosity."
+  },
+  {
+    "question": "Which French ruler adopted the Justinian's code of laws for administration?",
+    "choice1": "Henty IV",
+    "choice2": "Napolean",
+    "choice3": "Louis XIV",
+    "choice4": "Charlemagne",
+    "answer": 2,
+    "explanation": "Many nations adopted the Justinian's code for framing their laws. It also served as the base for the code of law of the French ruler, Napoleon Bonaparte"
+  },
+  {
+    "question": "Who captured Constantinople in the 15th Century C.E which led to the decline of Eastern Roman Empire?",
+    "choice1": "The Arabs",
+    "choice2": "The Mongols",
+    "choice3": "The Turks",
+    "choice4": "The Chinese",
+    "answer": 3,
+    "explanation": "The Eastern Roman Empire collapsed with the capture of Constantinople by the Turks in the fifteenth century."
+  },
+  {
+    "question": "The Capital of Western Roman Empire was _______",
+    "choice1": "Carthage",
+    "choice2": "Timbuktu",
+    "choice3": "Rome",
+    "choice4": "Constantinople",
+    "answer": 3,
+    "explanation": "Rome was the capital of Western Roman Empire. Whereas the capital of Eastern Roman Empire was Constantinople."
+  }
+]
