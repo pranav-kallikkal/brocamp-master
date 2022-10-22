@@ -50,7 +50,7 @@ const validateInput = () => {
 };
 
 const onSubmitForm = (e) => {
-//   e.preventDefault();
+  e.preventDefault();
   validateInput();
 };
 
