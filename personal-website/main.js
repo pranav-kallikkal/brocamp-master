@@ -29,7 +29,6 @@ const validateInput = () => {
   const nameValue = fullname.value.trim();
   const emailValue = email.value.trim();
   const messageValue = message.value.trim();
-  console.log(nameValue);
   if (nameValue === "") {
     setError(fullname, "Full name is required");
   } else {
@@ -51,7 +50,7 @@ const validateInput = () => {
 
 const onSubmitForm = (e) => {
   e.preventDefault();
-  validateInput();
+  validateInput();  
 };
 
 form.addEventListener("submit", onSubmitForm);
