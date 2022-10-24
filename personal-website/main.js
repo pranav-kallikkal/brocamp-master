@@ -50,7 +50,21 @@ const validateInput = () => {
 
 const onSubmitForm = (e) => {
   e.preventDefault();
-  validateInput();  
+  validateInput();
+  if (!email.classList.contains("error")) {
+    $.ajax({
+      url: "https://script.google.com/macros/s/AKfycby13JXnE0ZiXBlV34OMHJXKXD-DpAL5wKvTvRSBbtTKSg4arxeAuPvqHTGpZzFO7OyMog/exec",
+      data: $("#gform").serialize(),
+      method: "post",
+      success: function (response) {
+        alert("Form submitted successfully");
+        window.location.reload();
+      },
+      error: function (err) {
+        alert("Something Went Wrong");
+      },
+    });
+  }
 };
 
 form.addEventListener("submit", onSubmitForm);
