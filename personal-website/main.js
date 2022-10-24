@@ -51,7 +51,11 @@ const validateInput = () => {
 const onSubmitForm = (e) => {
   e.preventDefault();
   validateInput();
-  if (!email.classList.contains("error")) {
+  if (
+    !email.classList.contains("error") ||
+    !fullname.classList.contains("error") ||
+    !message.classList.contains("error")
+  ) {
     $.ajax({
       url: "https://script.google.com/macros/s/AKfycby13JXnE0ZiXBlV34OMHJXKXD-DpAL5wKvTvRSBbtTKSg4arxeAuPvqHTGpZzFO7OyMog/exec",
       data: $("#gform").serialize(),
