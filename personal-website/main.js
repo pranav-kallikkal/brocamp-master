@@ -7,8 +7,8 @@ const setSuccess = (element) => {
   const inputElement = element.parentElement.querySelector(".form-control");
   const errorDisplay = element.parentElement.querySelector(".form-error");
   errorDisplay.innerText = "";
-  inputElement.classList.add("success");
   inputElement.classList.remove("error");
+  inputElement.classList.add("success");
 };
 
 const setError = (element, message) => {
@@ -20,9 +20,9 @@ const setError = (element, message) => {
 };
 
 const isValidEmail = (email) => {
-  const reqularEx =
+  const regularEx =
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
+  return regularEx.test(String(email).toLowerCase());
 };
 
 const validateInput = () => {
