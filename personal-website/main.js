@@ -20,7 +20,7 @@ const setError = (element, message) => {
 };
 
 const isValidEmail = (email) => {
-  const re =
+  const reqularEx =
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 };
@@ -52,8 +52,8 @@ const onSubmitForm = (e) => {
   e.preventDefault();
   validateInput();
   if (
-    !email.classList.contains("error") ||
-    !fullname.classList.contains("error") ||
+    !email.classList.contains("error") &&
+    !fullname.classList.contains("error") &&
     !message.classList.contains("error")
   ) {
     $.ajax({
